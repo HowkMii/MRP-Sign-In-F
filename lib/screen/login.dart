@@ -34,7 +34,7 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 40),
+                    padding: EdgeInsets.symmetric(vertical: 40, horizontal: 30),
                     child: Column(
                       children: <Widget>[
                         Text(

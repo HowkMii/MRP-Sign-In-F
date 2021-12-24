@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         child: Container(
           width: double.infinity,
           height: MediaQuery.of(context).size.height,
-          padding: EdgeInsets.symmetric(vertical: 100),
+          padding: EdgeInsets.symmetric(vertical: 100, horizontal: 30),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.center,

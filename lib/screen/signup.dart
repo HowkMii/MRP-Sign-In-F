@@ -25,10 +25,10 @@ class SignupPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 40),
-          height: MediaQuery.of(context).size.height - 50,
+          height: MediaQuery.of(context).size.height - 100,
           width: double.infinity,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Column(
                 children: <Widget>[
@@ -42,6 +42,9 @@ class SignupPage extends StatelessWidget {
                   Text(
                     "We'll review your account and send it to you soon",
                     style: TextStyle(fontSize: 15, color: Colors.grey[700]),
+                  ),
+                  SizedBox(
+                    height: 20,
                   ),
                 ],
               ),
