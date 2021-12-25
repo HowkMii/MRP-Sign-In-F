@@ -24,17 +24,19 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
                     "Welcome",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                    textAlign: TextAlign.start,
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
                   ),
                   SizedBox(
-                    height: 15,
+                    height: 10,
                   ),
                   Text(
                     "Thank you for your interest in Ibn khaldoune University",
-                    textAlign: TextAlign.center,
+                    textAlign: TextAlign.start,
                     style: TextStyle(color: Colors.grey[700], fontSize: 18),
                   ),
                 ],

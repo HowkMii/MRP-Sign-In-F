@@ -27,24 +27,22 @@ class LoginPage extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         width: double.infinity,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             Expanded(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Container(
-                    padding: EdgeInsets.symmetric(vertical: 40, horizontal: 30),
-                    child: Column(
-                      children: <Widget>[
-                        Text(
-                          "Login to your account",
-                          style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold),
-                        ),
-                      ],
+                    padding: EdgeInsets.symmetric(
+                      vertical: 35,
+                    ),
+                    child: Text(
+                      "Login to your account",
+                      style: TextStyle(
+                          fontSize: 28,
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                   Padding(
