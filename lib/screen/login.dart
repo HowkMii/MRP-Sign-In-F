@@ -74,7 +74,7 @@ class LoginPage extends StatelessWidget {
                         minWidth: double.infinity,
                         height: 60,
                         onPressed: () {},
-                        color: Color(0xffb63f2b),
+                        color: Color(0xFF000000),
                         elevation: 0,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(50)),
@@ -91,7 +91,11 @@ class LoginPage extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      const Text("Don't have an account?"),
+                      const Text(
+                        "Don't have an account?",
+                        style: TextStyle(
+                            fontWeight: FontWeight.w600, fontSize: 10),
+                      ),
                       TextButton(
                         onPressed: () {
                           Navigator.pushReplacement(
@@ -102,7 +106,7 @@ class LoginPage extends StatelessWidget {
                         child: const Text(
                           "Registration request",
                           style: TextStyle(
-                              fontWeight: FontWeight.w600, fontSize: 14),
+                              fontWeight: FontWeight.w600, fontSize: 10),
                         ),
                       ),
                     ],

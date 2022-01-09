@@ -69,7 +69,7 @@ class SignupPage extends StatelessWidget {
                   minWidth: double.infinity,
                   height: 60,
                   onPressed: () {},
-                  color: Color(0xffb63f2b),
+                  color: Color(0xFF000000),
                   elevation: 0,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(50)),
@@ -85,16 +85,19 @@ class SignupPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text("Already have an account?"),
+                  Text(
+                    "Already have an account?",
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 12),
+                  ),
                   TextButton(
                     onPressed: () {
                       Navigator.pushReplacement(context,
                           MaterialPageRoute(builder: (context) => LoginPage()));
                     },
                     child: Text(
-                      " Login",
+                      "Login",
                       style:
-                          TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
                     ),
                   ),
                 ],

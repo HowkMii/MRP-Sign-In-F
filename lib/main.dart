@@ -24,11 +24,11 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
                     "Welcome",
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.center,
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 50),
                   ),
                   SizedBox(
@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                   ),
                   Text(
                     "Thank you for your interest in Ibn khaldoune University",
-                    textAlign: TextAlign.start,
+                    textAlign: TextAlign.center,
                     style: TextStyle(color: Colors.grey[700], fontSize: 18),
                   ),
                 ],
@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
                             MaterialPageRoute(
                                 builder: (context) => SignupPage()));
                       },
-                      color: Color(0xffb63f2b),
+                      color: Color(0xFF000000),
                       elevation: 0,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50)),
